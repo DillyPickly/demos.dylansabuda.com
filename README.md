@@ -73,3 +73,19 @@ apache2ctl -M
 
 ### Make sure to change allows origins in Bokeh command
 Look in container logs to diagnose problems.# demos.dylansabuda.com
+
+### Where to get docker
+[https://docs.docker.com/get-docker/](https://docs.docker.com/get-docker/)
+
+### Where to get docker-compose
+[https://docs.docker.com/compose/install/](https://docs.docker.com/compose/install/)
+
+### Attaching shell to docker container
+``` bash
+sudo docker exec -it <container-id> bash
+```
+
+### Viewing logs of docker container
+``` bash 
+docker logs --tail 1000 -f <container-id>
+```
