@@ -1,0 +1,23 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+html, body, #map {
+    height: 100%;
+    width: 100vw;
+}
+
+/* #map { 
+    height: 100%;
+    width: 90vw;
+    position: relative; 
+    outline: none;
+    align-items: center;
+} */
+
+.circle {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px; 
+    /* width and height can be anything, as long as they're equal */
+  }

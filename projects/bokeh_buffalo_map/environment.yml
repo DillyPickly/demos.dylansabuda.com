@@ -1,0 +1,9 @@
+name: bokeh
+channels:
+  - defaults
+dependencies:
+  - pandas
+  - bokeh
+  - jupyter
+  - sip
+prefix: /home/dylan/miniconda3/envs/bokeh

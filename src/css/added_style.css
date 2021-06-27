@@ -1,0 +1,32 @@
+.content {
+    max-width: 80%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50px;
+    font-size: 17px;
+}
+
+ul {
+    display: block;
+    margin-block-end: 50px;
+}
+
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #aeb6bf ;
+    color: white;
+    text-align: center;
+}
+
+.header {
+    padding: 5px;
+    text-align: center;
+    background:  #aeb6bf ;
+    color: white;
+    font-size: 17px;
+}

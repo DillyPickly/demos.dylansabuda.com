@@ -1,0 +1,13 @@
+FROM continuumio/miniconda3
+# FROM python:3
+
+WORKDIR /usr/src/bokeh_buffalo_map
+
+# COPY ./projects/bokeh_buffalo_map/requirements.txt ./
+# RUN pip install --no-cache-dir -r requirements.txt
+COPY projects/bokeh_buffalo_map/environment.yml ./
+RUN conda env create -f environment.yml
+
+COPY projects/bokeh_buffalo_map .
+# CMD [ "conda activate bokeh" ]
+ENTRYPOINT ["./run.sh"]
